@@ -14,7 +14,7 @@ export default ({title, body, image}) => {
             <h2 className="card__title"> {title} </h2>
             <p className="card__body"> {body}
             </p>
-          <button className="card__button">Touch</button>
+          <button className="card__button">More</button>
           </div>
         </div>
   )

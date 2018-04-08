@@ -2,23 +2,18 @@
 .card{
   @apply .shadow-md .rounded .overflow-hidden .max-w-cd  .mb-3
 }
-
 .card__image{
   @apply .bg-cover .bg-center .h-48 .w-auto
 }
-
 .card__title{
   @apply .font-black .mb-3 .text-left
 }
-
 .card__button{
   @apply .bg-teal .text-white .py-3 .px-6 .font-bold .rounded-full .mt-1 .mb-2
 }
-
 .card__button:hover{
   @apply .bg-teal-light
 }
-
 .card__body{
   @apply .text-sm .text-grey-dark .mb-4 .text-justify
 }
